@@ -1,11 +1,13 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset=utf-8 />
 <title>Kickass Industries - Katherine Schultz</title>
 <style>
 
+
 body {
 	font-family: Helvetica;
-	width: 892px;
 }
 
 .nav {
@@ -17,35 +19,36 @@ body {
 	left: 0px;
 	z-index: 5;
 	font-weight: bold;
+	font-size: 14px;
 	text-transform:uppercase;
 }
 
 .logo {
 	position: fixed;
-	top: 5px;
+	top: 7px;
 	left: 50px;
 }
 
 .tour {
 	position: fixed;
-	top: 10px;
+	top: 15px;
 	left: 650px;
 }
 
 .pricing {
 	position: fixed;
-	top: 10px;
+	top: 15px;
 	left: 715px;
 }
 
 .signin {
 	position: fixed;
-	top: 10px;
+	top: 15px;
 	left: 800px;
 }
 
 .photo {
-	margin: 0 auto;
+	position: relative;
 	width: 892px;
 }
 
@@ -68,15 +71,19 @@ body {
 }
 
 .quotes {
-	width: 700px;
-	margin: 0 auto;
+	width: 892px;
+	position: relative;
+	top:0px;
+	left:0px;
+	height: 200px;
 }
 
 .dexter {
-	margin: 20px 10px 30px 20px;
-	width: 250px;
+	margin: 20px 10px 30px 125px;
+	width: 270px;
 	font-style: italic;
-	position: relative;
+	font-weight: lighter;
+	position: absolute;
 	top: 20px;
 	left: 0px;
 }
@@ -92,21 +99,25 @@ body {
 
 .dextername {
 	margin: 10px 0px 0px 50px;
-	font-style: normal
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 .dexterdescrip {
 	margin: 0px 0px 0px 50px;
-	font-style: normal
+	font-style: normal;
+	font-size: 10px;
 }
 
 .baretta {
-	margin: 20px 20px 30px 10px;
-	width: 250px;
+	margin: 20px 125px 30px 10px;
+	width: 270px;
 	font-style: italic;
+	font-weight: lighter;
 	position: absolute;
-	top: 571px;
-	left: 450px;
+	top: 20px;
+	right: 0px;
 }
 
 .barpic {
@@ -120,12 +131,15 @@ body {
 
 .barettaname {
 	margin: 10px 0px 0px 50px;
-	font-style: normal
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 .barettadescrip {
 	margin: 0px 0px 0px 50px;
-	font-style: normal
+	font-style: normal;
+	font-size: 10px;
 }
 
 .cols {
@@ -144,6 +158,7 @@ body {
 	float: left;
 	background-color: #444;
 	margin: 0 auto;
+	font-size: 12px;
 }
 
 .colhead {
@@ -153,6 +168,10 @@ body {
 .colbody {
 	color: #999;
 	padding: 10px 0px;
+}
+
+.link {
+	padding: 8px 0px;
 }
 
 </style>
@@ -203,11 +222,11 @@ body {
 		Product
 		</div>
 		<div class="colbody">
-		Tour
-		Pricing
-		Security
-		Privacy
-		Terms
+		<div class="link">Tour</div>
+		<div class="link">Pricing</div>
+		<div class="link">Security</div>
+		<div class="link">Privacy</div>
+		<div class="link">Terms</div>
 		</div>
 	</div>
 	<div class="col">
@@ -215,10 +234,10 @@ body {
 		Users
 		</div>
 		<div class="colbody">
-		Sign In
-		Support
-		FAQs
-		Stories
+		<div class="link">Sign In</div>
+		<div class="link">Support</div>
+		<div class="link">FAQs</div>
+		<div class="link">Stories</div>
 		</div>
 	</div>
 	<div class="col">
@@ -226,10 +245,10 @@ body {
 		Company
 		</div>
 		<div class="colbody">
-		About Us
-		Blog
-		Contact
-		Press
+		<div class="link">About Us</div>
+		<div class="link">Blog</div>
+		<div class="link">Contact</div>
+		<div class="link">Press</div>
 		</div>
 	</div>
 	<div class="col">
@@ -237,11 +256,11 @@ body {
 		Follow
 		</div>
 		<div class="colbody">
-		Facebook
-		Twitter
-		LinkedIn
-		Vimeo
-		YouTube
+		<div class="link">Facebook</div>
+		<div class="link">Twitter</div>
+		<div class="link">LinkedIn</div>
+		<div class="link">Vimeo</div>
+		<div class="link">YouTube</div>
 		</div>
 	</div>
 </div>
